@@ -1,0 +1,36 @@
+:root {
+    --main--color: #ff9800;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.contain{
+   display: flex;
+   justify-content: center;
+   height: 200px;
+   
+}
+.links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+.links li{
+    margin-left:20px;
+    padding: 10px 20px;
+    border: 1px solid #98ff55;
+    cursor: pointer;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
